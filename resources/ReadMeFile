@@ -1,0 +1,33 @@
+->create com package
+
+	->create com.bean package 
+		->create all bean classes
+		
+	->create com.constraint package
+		->create all constraint classes
+		
+	->create com.exception package
+		->create all used defined exception classes
+		
+	->create com.provider package
+		->create DBConnectionProvider
+		
+	->create com.dao package
+		->create userDaoInterface and AccDaoInterface
+		
+	->create com.daoImpl package
+		->create userDaoImpl and AccDaoImpl
+		
+	->create com.services package
+		->create service interfaces for all bean classes
+	
+	->create com.serviceImpl package
+		->create service Implementation classes for implementing service interfaces
+		
+	->inside com.provider package
+		->create UserObjectProvide and AccObjectProvide classes
+		
+	->create com.client package
+		->create UserCode class which is entry point of program
+		
+	
